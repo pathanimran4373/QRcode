@@ -1,0 +1,49 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.qrCode_Background {
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 1440px;
+  width: 100%;
+}
+
+.qrCode_container {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  max-width: 200px;
+  text-align: center;
+}
+
+.qrCode_image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.qrCode_heading {
+  padding: 0 11px;
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 15px;
+  color: hsl(218, 44%, 22%);
+  font-family: "Outfit", sans-serif;
+}
+
+.qrCode_content {
+  padding: 0 13px 15px 13px;
+  margin-top: 10px;
+  font-size: 10px;
+  color: hsl(220, 15%, 55%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+}
